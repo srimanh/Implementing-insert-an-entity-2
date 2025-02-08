@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
-import AddMovie from "./components/AddMovie"; // Import AddMovie Component
+import AddMovie from "./components/AddMovie"; 
 
 const App = () => {
   return (

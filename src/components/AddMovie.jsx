@@ -21,7 +21,7 @@ const AddMovie = () => {
     e.preventDefault();
     console.log("Movie added:", movie);
     alert("Movie added successfully! (This is a placeholder)");
-    navigate("/"); // Redirect back to Dashboard
+    navigate("/"); 
   };
 
   return (
