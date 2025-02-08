@@ -1,0 +1,36 @@
+.add-movie-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input, textarea, select {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
